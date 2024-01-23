@@ -1,0 +1,205 @@
+.nav a{
+    color:red;
+}
+.nav ul li a{
+    font-size: 20px;
+    color: black
+}
+.bg{
+    height: 100vh;
+    background-image: url(cycle.jpg);
+    background-size: cover;
+}
+@media only screen and (max-width:600px){
+    .bg{
+        background-position: 20% 33%;
+    }
+}
+.text{
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+.text button{
+    width: 250px;
+    padding: 15px;
+    text-align:center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    border:2px rgb(50, 48, 48);
+    color:white;
+    position: relative;
+    overflow: hidden;
+    background-color:rgb(175, 14, 14);
+    cursor: pointer;
+}
+.ride{
+    transition: all 0.2s;
+}
+.Ride h1{
+    text-align: center;
+}
+.Ride span{
+    color: red;
+}
+.Ride button{
+    width: 150px;
+    padding: 10px;
+    text-align:center;
+    margin: 10px 10px;
+    border-radius: 25px;
+    border:2px rgb(50, 48, 48);
+    color:white;
+    position: relative;
+    overflow: hidden;
+    background-color:rgb(175, 14, 14);
+    cursor: pointer;
+}
+.ride:hover{
+    transform: scale(0.9);
+}
+.test h1{
+    text-align: center;
+}
+.test span{
+    color: red;
+}
+.bike{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+.bike h3{
+    text-align: center;
+    color: white;
+}
+.bike img{
+    width: 90%;
+    height:50vh;
+}
+.expert p{
+    color: white;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.expert{
+    background-color: black;
+}
+.bg-dark h3{
+color: white;
+}
+.bg-dark ul li{
+    color: #fff;
+}
+.bg-dark p{
+    color: #fff;
+    text-align: center;
+}
+.About{
+    text-align: center;
+}
+.About span{
+    color: red;
+}
+.About button{
+    width: 150px;
+    padding: 10px;
+    text-align:center;
+    margin: 10px 10px;
+    border-radius: 25px;
+    border:2px rgb(50, 48, 48);
+    color:white;
+    position: relative;
+    overflow: hidden;
+    background-color:rgb(175, 14, 14);
+    cursor: pointer;
+}
+.us{
+    transition: all 0.3s;
+}
+.us:hover{
+    transform: scale(0.9);
+}
+.brand{
+    background-color: black;
+}
+.brand h1{
+    color: #fff;
+    text-align: center;
+}
+.brand span{
+    color: red;
+}
+.our{
+    background-color: black;
+}
+.Gallery h1{
+text-align: center;
+color: red;
+}
+.Gallery img{
+    width: 100%;
+}
+.img{
+    transition: all 0.5s;
+}
+.img :hover{
+    transform: scale(1.1);
+}
+.News h1{
+    text-align: center;
+    color: red;
+}
+.News img{
+    width: 100%;
+    height: 100%;
+}
+.society img{
+width: 100%;
+}
+.society h1{
+    text-align: center;
+    color: #fff;
+}
+.society p{
+
+    color: #fff;
+}
+.gov{
+    background-color: black;
+}
+.touch{
+    padding: 20px;
+}
+.touch h4{
+    color: white;
+}
+.Contact h4{
+    color: #fff;
+}
+.form-control{
+    height: 52px;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    border: 2px;
+    box-sizing: none important;
+    border:1px solid rgba(0,0,0,0.1);
+}
+.form-label{
+    color: #fff;
+}
+.bi{
+    font-size: 20px;
+}
+.d-flex p{
+    font-size: 18px;
+    padding-left: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+.form{
+    background-image: url(storebg.jpg);
+}
